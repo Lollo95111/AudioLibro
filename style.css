@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(35,120,228);
+background: linear-gradient(90deg, rgba(35,120,228,0.21341036414565828) 0%, rgba(0,132,200,0.31425070028011204) 53%, rgba(0,63,121,0.04534313725490191) 100%);
+    font-family: monospace;
+    font-weight: bold;
+}
+
+h1{
+    background: linear-gradient(90deg, rgba(35,62,228,0.6223739495798319) 0%, rgba(2,51,77,0.6980042016806722) 53%, rgba(0,63,121,0.7120098039215687) 100%); /* Gradient di sfondo */
+    -webkit-background-clip: text; /* Abilita il clip testuale per WebKit */
+    background-clip: text; /* Abilita il clip testuale standard */
+    color: transparent; 
+}
+
+textarea{
+    height: 100%;
+    background: rgb(102,175,159);
+background: linear-gradient(90deg, rgba(102,175,159,0.48792016806722693) 0%, rgba(85,138,127,0.6980042016806722) 53%, rgba(92,250,206,0.5803571428571428) 100%);
+}
+
+
+
+button{
+    border-radius: 35%;
+    width: 50px;
+   background-color: rgba(0, 201, 201, 0.212);
+    cursor: pointer;
+}
+
+select{
+    padding: 5px;
+    width: 400px;
+    border-radius: 30%;
+    background: rgb(102,175,159);
+background: linear-gradient(90deg, rgba(102,175,159,0.48792016806722693) 0%, rgba(85,138,127,0.6980042016806722) 53%, rgba(92,250,206,0.5803571428571428) 100%);
+}
